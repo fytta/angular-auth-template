@@ -3,7 +3,7 @@ import { Inject, Injectable } from "@angular/core";
 import { Observable } from "rxjs";
 
 @Injectable()
-export abstract class BaseService {
+export abstract class BaseCrudService {
 
     httpClient: HttpClient;
     url: string;
